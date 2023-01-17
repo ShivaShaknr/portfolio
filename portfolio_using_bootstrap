@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+ 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+    <!-----navbar----->
+    
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+           <a class="navbar-brand" href="#">Portfolio</a>
+          </div>
+          <ul class="nav navbar-nav navbar-right">
+            <li ><a class="nav-link" href="#">Home</a></li>
+            <li ><a class="nav-link" href="#about_me">About me</a></li>
+            <li ><a class="nav-link" href="#projects">Projects</a></li>
+            <li ><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </nav>
+
+
+    <!------main-section-start ---------->
+
+
+    <section class="main">
+        
+   
+        <div class="container">
+            <div class="contents">
+                    <h3><small>Hello,I'm</small><br>
+                        <br>
+                        <h1 style="color: orange;">SHIVA SHANKAR</h1>
+                    </h3>
+                    <h2>FRONT-END DEVELOPER</h2>
+                    <br>
+
+                    <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque vitae iusto dolorem ullam enim quibusdam nulla fugit sapiente ut, at eius recusandae totam, alias tempora similique eaque. Nisi, omnis. Officiis!</small>
+                    <br>
+                    <br>
+                    <br>
+                    <input type="button" value="HIRE ME" class="bt1 mt-5">
+                    <input type="button" value="MY WORK" class="bt2 mt-5">
+            </div>
+            
+            <img src="shiva.jpg" class="rounded float-right" height="450px" width="400px">
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+       
+
+        <!-----About me---->
+         
+        <section class="about py-5" id="about_me">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-lg-5">
+                        <img src="shivaabout.jpg" class="rounded float-left" height="700px" width="400px">
+                    </div>
+                    <div class="col-lg-7 pt-3">
+                        <h1 style="color: orange;">About Me</h1>
+                        <p><b>WEB DESIGNER</b> <small> (Front-end designer)</small></p>
+                        <p>I am <span class="font-weight-bold">Shiva Shankar</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis maiores nam delectus repudiandae tempore quasi ut sapiente consequatur accusantium modi culpa minus facere asperiores illum aliquam soluta amet, magni voluptatum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, amet! Veritatis eius ullam voluptate. Mollitia ipsam natus animi, odit commodi quia voluptates error deserunt debitis, voluptatum cumque non consectetur numquam.</p>
+                        <br>
+                        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar-warning" style="width: 90%; color: black;">HTML & CSS 90%</div>
+                          </div>
+                          <br>
+                        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar-warning" style="width: 80%;color: black;">Bootstrap 80%</div>
+                        </div>
+                        <br>
+                        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar-warning" style="width: 60%; color: black;">JavaScript 60%</div>
+                        </div>
+                        <br>
+                        <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar-warning" style="width: 50%; color: black;">ReactJS 50%</div>
+                          </div>
+                          <br>
+                          <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                            <div class="progress-bar-warning" style="width: 45%;color: black;">C & JAVA 45%</div>
+                          </div>
+                          <br>
+                        
+                           
+                    </div>
+                    <input type="button" class="bt1" value="DOWNLOAD CV">
+                    <input type="button" class="bt2" value="CONTACT ME">
+                </div>
+
+              
+                
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <!----projects---->
+            <section class="projects" id="projects">
+                
+                    <div class="container-fluid" style="background-color: rgb(0, 0, 0);" id="container1">
+                        <h1 style="text-align: center;">PROJECTS</h1>
+                        <br>
+                        <div class="container-fluid" id="div1" style="background-color:orange; padding: 100px; border-radius: 20px;">
+                            <img src="https://i0.wp.com/soyasabazaar.com/wp-content/uploads/2020/06/Soyasa_Bazaar_Homepage_2.png?fit=1191%2C658&ssl=1" width="100%" height="100%" style="border-radius: 20px;">
+                            <h1 style="color: black;">PROJECT 1</h1>
+                            <h2 style="color: black;">ONLINE GROCERIES WEBSITE</h2>
+                            <h4 style="color: black;">TOOLS USED : HTML CSS JS</h4>
+                            <h6 style="color: black;">an ecommerce site that people buy grocery items online and delivers it to their doorstep at their favored time.</h6><br>
+                            <input type="button" value="VIEW PROJECT" class="bt1 mt-5">
+
+                        </div><br>
+                        <div class="container-fluid" id="div2" style="background-color:orange; padding: 100px; border-radius: 20px;">
+                            <img src="https://www.orderingonlinesystem.com/wp-content/uploads/2018/08/zomato.png" width="100%" height="100%" style="border-radius: 20px;">
+                            <h1 style="color: black;">PROJECT 2</h1>
+                            <h2 style="color: black;">FOOD ORDERING WEBSITE</h2>
+                            <h4 style="color: black;">TOOLS USED : ReactJS</h4>
+                            <h6 style="color: black;">a place where customers can directly order from the restaurant instead of going through a third-party food delivery business.</h6><br>
+                            <input type="button" value="VIEW PROJECT" class="bt1 mt-5">
+                        </div><br>
+                        <div class="container-fluid" id="div3" style="background-color:orange; padding: 100px; border-radius: 20px;">
+                            <img src="https://repository-images.githubusercontent.com/218282453/04d4eb80-0083-11ea-8499-b0678a2c6510" width="100%" height="100%" style="border-radius: 20px;">
+                            <h1 style="color: black;">PROJECT 3</h1>
+                            <h2 style="color: black;">PORTFOLIO WEBSITE</h2>
+                            <h4 style="color: black;">TOOLS USED : BOOTSTRAP</h4>
+                            <h6 style="color: black;">a compilation of academic and professional materials that explains my skills, qualifications, education, training, and experiences.</h6><br>
+                            <input type="button" value="VIEW PROJECT" class="bt1 mt-5"> 
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-------contact-info---->
+            <section class="contact" id="contact">
+                <div class="container-fluid" style="background-color: rgb(0, 0, 0);" id="container2">
+                    <h1 style="text-align: center;">CONTACT-INFO</h1>
+                    <br>
+                    <br>
+                    <div class="container-fluid" id="div1" style="background-color:orange; padding: 100px; border-radius: 20px;">
+                    <h3 style="color: black;">&#x213D; NESAMANI NAGAR,SRI VARATHAPURAM, CHENNAI 600100, INDIA</h3>
+                    <h3 style="color: black;">&#x2709; shivanat05@gmail.com</h3>
+                    <h3 style="color: black;">&#x260F; 7604863285</h3>
+                    <h3 style="color: black;">&#x2148; @shiva_shankar</h3>
+                    <h3 style="color: black;">&#x2148; https://github.com/ShivaShaknr</h3>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+    </section>
+   
+    
+</body>
+</html>
+
+
+<!--------------css---------->
+
+
+body{
+    color: black;
+}
+nav{
+    padding: 10px;
+}
+.nav-link:hover{
+    color: white;
+    background-color:orange;
+}
+.rounded{
+    border-radius: 100px;
+   
+
+}
+.container{
+    display:flex;
+    align-items: flex-end;
+    font-family: cursive;
+  font-size: 15px;
+  margin-top: 150px;
+   
+    
+}
+
+.contents{
+    margin-top: 50px;
+    margin-right: 300px;
+    color:white;
+    
+}
+.main h3{
+    font-size: 3.4rem;
+    
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/1397755.jpg");
+}
+.main .bt1{
+    height:55px;
+    width: 138px;
+    background-color: white;
+    outline:none;
+    border-radius: 10px;
+    border: none;
+    color:black
+}
+.main .bt2{
+    height:55px;
+    width: 138px;
+    background-color:orange;
+    outline:none;
+    border-radius: 10px;
+    border: none;
+    color:white
+}
+.about{
+    color: aliceblue;
+}
+
+.progress-bar{
+    background-color: orange;
+}
+.about .bt1{
+    height:55px;
+    width: 138px;
+    background-color: white;
+    outline:none;
+    border-radius: 10px;
+    border: none;
+    color:black
+
+}
+#container1,#container2{
+    padding-bottom: 300px;
+    padding-left: 300px;
+    padding-right: 300px;
+    
+}
+.projects,.contact{
+    font-family: cursive;
+}
+.projects .bt1{
+    height:55px;
+    width: 138px;
+    background-color:black;
+    outline:none;
+    border-radius: 10px;
+    border: none;
+    color:rgb(255, 255, 255)
+}
